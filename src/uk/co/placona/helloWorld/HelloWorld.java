@@ -6,6 +6,10 @@ public class HelloWorld {
 		return "Hello World";
 	}
 	
+	public double addiereZahlen(double a, double b) {
+		return (a+b);
+		
+	}
 	public double myNewDouble() {
 		return 0.5;
 	}
