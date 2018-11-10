@@ -10,7 +10,6 @@ public class HelloWorldTest {
 	@Test
 	public void testHellowWorld(){
 		HelloWorld hello = new HelloWorld();
-		assertEquals(10,hello.addiereZahlen(7,3));
+		assertEquals("A test for Hello World String", "Hello World", hello.sayHello());
 	}
-	
 }
